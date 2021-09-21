@@ -1,0 +1,69 @@
+{
+  "title": "COVID-19-Hospitalisierungen in Deutschland",
+  "description": "<p>Im Datensatz 'COVID-19-Hospitalisierungen in Deutschland' werden die aktuellen Zahlen der, nach den Vorgaben des Infektionsschutzgesetzes - IfSG - erfassten, hospitalisierten COVID-19-Fälle bereitgestellt.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Robert Koch-Institut",
+      "affiliation": "Robert Koch-Institut"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Diercke, Michaela",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-4678-1813",
+      "type": "ProjectManager"
+    },
+    {
+      "name": "Ullrich, Alexander",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-4894-6124",
+      "type": "DataManager"
+    },
+    {
+      "name": "Wuensche, Hannes",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-8837-0326",
+      "type": "DataCurator"
+    }
+  ],
+  "keywords": [
+    "Hospitalization",
+    "Krankenhauseinweisung",
+    "COVID-19",
+    "SARS-CoV-2",
+    "Infektion",
+    "Deutschland",
+    "Infections",
+    "Germany",
+    "RKI"
+  ],
+  "subjects": [
+    {
+      "term": "Gesundheitsberichterstattung",
+      "identifier": "info:ddc/22/de//614.42"
+    },
+    {
+      "term": "Epidemiologie",
+      "identifier": "info:ddc/22/de//614.4"
+    },
+    {
+      "term": "Public health surveillance",
+      "identifier": "info:ddc/22/eng//614.42"
+    },
+    {
+      "term": "Epidemiology",
+      "identifier": "info:ddc/22/eng//614.4"
+    }
+  ],
+  "publication_date": "2021-09-21T11:00:40+02:00"
+}
