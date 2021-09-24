@@ -34,7 +34,7 @@ Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagemen
 
 ### Erhebung und Aufbereitung der Daten  
 
-Gemäß Infektionsschutzgesetz muss der Verdacht, die Erkrankung, die Aufnahme un der Tod in Bezug auf COVID-19 sowie der Nachweis von SARS-CoV-2 an das Gesundheitsamt gemeldet werden.  
+Gemäß Infektionsschutzgesetz müssen der Verdacht, die Erkrankung, die Aufnahme und der Tod in Bezug auf COVID-19 sowie der Nachweis von SARS-CoV-2 an das Gesundheitsamt gemeldet werden.  
 Die Meldung muss unverzüglich erfolgen und dem Gesundheitsamt spätestens innerhalb von 24 Stunden vorliegen. Dabei müssen auch Name, Adresse und Kontaktdaten der betroffenen Person gemeldet werden, damit das Gesundheitsamt die Person kontaktieren kann und die notwendigen Maßnahmen (z.B. Isolierung der betroffenen Person, Ermittlung von Kontaktpersonen) einleiten kann.   
 Der Meldeweg vom Arzt oder anderen Meldepflichtigen zum Gesundheitsamt läuft derzeit noch routinemäßig per Fax, selten per Telefon oder E-Mail. Seit Mitte Juni 2020 haben Labore die Möglichkeit, Erregernachweise von SARS-CoV-2 elektronisch an das zuständige Gesundheitsamt zu melden (erste Ausbaustufe des [Deutschen Elektronischen Melde- und Informationssystems für den Infektionsschutz - DEMIS](https://www.rki.de/DE/Content/Infekt/IfSG/DEMIS/DEMIS_node.html)). Für Labore ist die Meldung von SARS-CoV-2-Erregernachweisen über DEMIS seit dem 01.01.2021 verpflichtend.  
 COVID-19-Fälle, die die Falldefintionen des RKI erfüllen, müssen vom zuständigen Gesundheitsamt, spätestens am nächsten Arbeitstag, elektronisch an die zuständige Landesbehörde und von dort, spätestens am nächsten Arbeitstag, an das RKI übermittelt werden, allerdings ohne Name, Wohnort und Kontaktdaten der Betroffenen. In der aktuellen Lage übermitteln die meisten Gesundheitsämter früher und häufiger als gesetzlich vorgesehen, meist täglich und auch am Wochenende. Allerdings kann es bei der Übermittlung der Fälle auch zu einem Melde- und Übermittlungsverzug von einigen Tagen kommen.
@@ -57,7 +57,7 @@ Bei der Bewertung der Daten sollte berücksichtigt werden, dass die betroffene P
 
 #### Geografischer Bezug der hospitalisierten COVID-19-Fälle
 
-Die Daten werden in der Regel von dem Gesundheitsamt an das RKI übermittelt, das für den Wohnort der betroffenen Person zuständig ist. In Einzelfällen können die Gesundheitsämter von dieser Regelung abweichen. Wenn die betroffene Person z.B. in Niedersachen wohnhaft ist, aber in Hamburg hospitalisiert wird, dann erfolgt die Zuordnung zum Bundesland Niedersachsen. Das bedeutet, dass die Daten keinen direkten Rückschluss auf die Krankenhausbelegung der jeweiligen Bundesländer zulassen. 
+Die Daten werden in der Regel von dem Gesundheitsamt an das RKI übermittelt, das für den Wohnort der betroffenen Person zuständig ist. In Einzelfällen können die Gesundheitsämter von dieser Regelung abweichen. Wenn die betroffene Person z.B. in Niedersachsen wohnhaft ist, aber in Hamburg hospitalisiert wird, dann erfolgt die Zuordnung zum Bundesland Niedersachsen. Das bedeutet, dass die Daten keinen direkten Rückschluss auf die Krankenhausbelegung der jeweiligen Bundesländer zulassen. 
 
 #### Weitere Veröffentlichung der Daten 
 
