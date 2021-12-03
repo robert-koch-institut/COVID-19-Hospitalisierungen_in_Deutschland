@@ -162,13 +162,13 @@ Die Hospitalisierungsdaten enthalten die in der folgenden Tabelle abgebildeten V
 | Datum |Datum |```JJJJ-MM-TT``` | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz |
 | Bundesland | Text | ```Bundesgebiet``` <br/> ```Schleswig-Holstein``` <br/> ```[...]``` <br/> ```Thüringen``` | Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet | 
 | Bundesland_Id| Text | ```00``` : Bundesgebiet <br/> ```01```&nbsp;bis&nbsp;```16```:&nbsp;Bundesland&nbsp;ID  | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet|
-| Bevoelkerung | Natürliche&nbsp;Zahl | ```≥0``` | Bevölkerungszahl für die Berechnung der adjustierten 7-Tage-Inzidenz |
 | Altersgruppe | Text | ```00+``` (alle Altersgruppen) | Altersgruppe der  hospitalisierten COVID-19-Fälle |
 | fixierte_7T _Hospitalisierung_Faelle| Natürliche Zahl | ```≥0```| Tagesaktuell berichtete Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage | 
 | aktualisierte_7T _Hospitalisierung_Faelle| Natürliche Zahl | ```≥0```| Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage inklusive eingetroffener Nachmeldungen| 
 | PS_adjustierte_7T _Hospitalisierung_Faelle| Natürliche Zahl | ```≥0``` | Punktschätzer der hospitalisierten COVID-19-Fälle der letzten 7 Tage|
 | UG_PI_adjustierte_ 7T_Hospitalisierung_Faelle | Natürliche Zahl|```≥0```  | Untere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage |
 | OG_PI_adjustierte_ 7T_Hospitalisierung_Faelle | Natürliche Zahl| ```≥0``` | Obere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage |
+| Bevoelkerung | Natürliche&nbsp;Zahl | ```≥0``` | Bevölkerungszahl für die Berechnung der adjustierten 7-Tage-Inzidenz |
 | fixierte_7T _Hospitalisierung_Inzidenz | Rationale Zahl | ```≥0``` | Tagesaktuell berichtete 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen |
 | aktualisierte_7T _Hospitalisierung_Inzidenz | Rationale Zahl | ```≥0``` | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen unter Berücksichtigung eingetroffener Nachmeldungen |
 | PS_adjustierte_ 7T_Hospitalisierung_Inzidenz | Rationale Zahl | ```≥0```|Punktschätzer der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle |
@@ -194,5 +194,3 @@ Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung 
 Die empfohlene Zitierweise ist:  
 
 Robert Koch-Institut (2021): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.5519056](https://doi.org/10.5281/zenodo.5519056). 
-
-Mit ♥ vom Robert Koch-Institut
