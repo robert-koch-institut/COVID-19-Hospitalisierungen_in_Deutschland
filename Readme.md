@@ -2,7 +2,7 @@ Datensatzdokumentation
 # COVID-19-Hospitalisierungen in Deutschland
 
 
-[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI  
+[Robert Koch-Institut](https://ror.org/01k5qnb77) | RKI  
 Nordufer 20  
 13353 Berlin  
 
@@ -22,7 +22,7 @@ MF 4 | Forschungsdatenmanagement
 
 ---
   
-Robert Koch-Institut (2022): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.7196700](https://doi.org/10.5281/zenodo.7196700).  
+Robert Koch-Institut (2022): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.7246646](https://doi.org/10.5281/zenodo.7246646).  
 
 
 ## Informationen zum Datensatz und Entstehungskontext 
