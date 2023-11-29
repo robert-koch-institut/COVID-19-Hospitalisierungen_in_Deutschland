@@ -97,7 +97,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2023-11-28"
+      "version": "2023-11-29"
     },
     "webpage": "https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/",
     "contributors": [
@@ -183,9 +183,11 @@
             "name": "Robert Koch-Institut"
           }
         ],
-        "groupType": "Creator/Author",
         "nameType": "Organisational",
-        "groupName": "Robert Koch-Institut"
+        "organisational": {
+          "name": "Robert Koch-Institut",
+          "type": "Creator/Author"
+        }
       }
     ]
   }
