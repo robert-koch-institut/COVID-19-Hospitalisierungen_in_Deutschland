@@ -13,7 +13,7 @@ jobs:
       OPENCODE_ACTIVE: true
       OPENCODE_GROUPID: 2781
       OPENCODE_ACCESS_USER: RKIOpenData
-      ZENODOJSON_PATH: Metadaten/zenodo.json
+      OPENCODE_ZENODOJSON_PATH: Metadaten/zenodo.json
       
       # Push to GovData Repositoy
       GOVDATA_ACTIVE: true
