@@ -17,7 +17,7 @@ abstract: >-
   innerhalb der sieben vorhergehenden Tage - inklusive der noch nicht an das RKI
   berichteten Hospitalisierungen. Aufbauend auf dem Nowcasting wird eine
   Schätzung der adjustierten 7-Tage-Hospitalisierungsinzidenz durchgeführt.
-date-released: '2023-12-30'
+date-released: '2023-12-31'
 keywords:
   - Hospitalization
   - Krankenhauseinweisung
@@ -38,7 +38,7 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.10443820
-version: '2023-12-30T05:05:54+01:00'
+doi: 10.5281/zenodo.10445900
+version: '2023-12-31T05:05:55+01:00'
 authors:
   - name: Robert Koch-Institut
