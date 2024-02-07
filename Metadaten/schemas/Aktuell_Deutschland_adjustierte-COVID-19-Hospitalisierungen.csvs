@@ -1,0 +1,17 @@
+version 1.1
+@totalColumns 15
+Datum: xDate
+Bundesland: any("Baden-Württemberg", "Bayern","Berlin","Brandenburg","Bremen","Hamburg","Hessen","Mecklenburg-Vorpommern", "Niedersachsen", "Nordrhein-Westfalen", "Rheinland-Pfalz", "Saarland", "Sachsen", "Sachsen-Anhalt","Schleswig-Holstein","Thüringen", "Bundesgebiet")
+Bundesland_Id: positiveInteger and range(0,16)
+Altersgruppe: is("00+")
+fixierte_7T_Hospitalisierung_Faelle: positiveInteger
+aktualisierte_7T_Hospitalisierung_Faelle: positiveInteger
+PS_adjustierte_7T_Hospitalisierung_Faelle: positiveInteger or is("NA")
+UG_PI_adjustierte_7T_Hospitalisierung_Faelle: positiveInteger or is("NA")
+OG_PI_adjustierte_7T_Hospitalisierung_Faelle: positiveInteger or is("NA")
+Bevoelkerung: positiveInteger
+fixierte_7T_Hospitalisierung_Inzidenz: positiveInteger or regex("[0-9]+\.([0-9]{1,2})")
+aktualisierte_7T_Hospitalisierung_Inzidenz: positiveInteger or regex("[0-9]+\.([0-9]{1,2})")
+PS_adjustierte_7T_Hospitalisierung_Inzidenz: positiveInteger or regex("[0-9]+\.([0-9]{1,2})") or is("NA")
+UG_PI_adjustierte_7T_Hospitalisierung_Inzidenz: positiveInteger or regex("[0-9]+\.([0-9]{1,2})") or is("NA")
+OG_PI_adjustierte_7T_Hospitalisierung_Inzidenz: positiveInteger or regex("[0-9]+\.([0-9]{1,2})") or is("NA")
