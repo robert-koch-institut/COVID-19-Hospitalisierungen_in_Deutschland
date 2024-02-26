@@ -21,6 +21,7 @@ jobs:
       
       # Push to NFDI4Health
       NFDI4HEALTH_ACTIVE: true
+      NFDI4HEALTH_BASE_BRANCH: master
       
       #Build Open Data Website
       WEBSITE_ACTIVE: true
