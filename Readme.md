@@ -22,7 +22,7 @@ MF 4 | Forschungsdatenmanagement
 
 ---
 **Zitieren**  
-Robert Koch-Institut (2024): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.11906612](https://doi.org/10.5281/zenodo.11906612).  
+Robert Koch-Institut (2024): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.12073438](https://doi.org/10.5281/zenodo.12073438).  
 
 
 ## Informationen zum Datensatz und Entstehungskontext 
