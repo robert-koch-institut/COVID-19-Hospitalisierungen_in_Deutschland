@@ -47,8 +47,8 @@
     "Open Data",
     "RKI"
   ],
-  "publication_date": "2024-07-11",
-  "version": "2024-07-11",
+  "publication_date": "2024-07-12",
+  "version": "2024-07-12",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -78,10 +78,10 @@
   ],
   "dates": [
     {
-      "start": "2024-07-11T07:15:15+02:00",
-      "end": "2024-07-11T07:15:15+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "start": "2024-07-12T07:15:18+02:00",
+      "end": "2024-07-12T07:15:18+02:00",
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
   "related_identifiers": [
