@@ -1,28 +1,25 @@
 Datensatzdokumentation  
 # COVID-19-Hospitalisierungen in Deutschland
 
-
-[Robert Koch-Institut](https://ror.org/01k5qnb77) | RKI  
+[Robert Koch-Institut | RKI](http://www.rki.de)  
 Nordufer 20  
 13353 Berlin  
 
-Beitragende:
-FG 32 | Surveillance | ÖGD-Kontaktstelle  
-[Michaela Diercke](https://orcid.org/0000-0002-4678-1813) (Leitung)  
+<br>
 
-FG 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen  
-[Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549) (Forschung)
+**Beitragende**  
 
-FG 31 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung  
-[Alexander Ullrich](https://orcid.org/0000-0002-4894-6124) (Datenmanagement)  
+[Alexander Ullrich](https://orcid.org/0000-0002-4894-6124)&sup1; (Datenmanagement), [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549)&sup2; (Forschung), [Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup1; (Leitung) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326)&sup3; (Datenkuration)     
 
-MF 4 | Forschungsdatenmanagement  
-[Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)  
+&emsp;&sup1; Robert Koch-Institut | [Fachgebiet 32](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html)   
+&emsp;&sup2; Robert Koch-Institut | [Fachgebiet 34](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG34/FG34_node.html)  
+&emsp;&sup3; Robert Koch-Institut | [Fachgebiet MF 4](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html)  
+  
+---  
+  
+**Zitieren**   
 
-
----
-**Zitieren**  
-Robert Koch-Institut (2024): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.12747654](https://doi.org/10.5281/zenodo.12747654).  
+Robert Koch-Institut (**2024**): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.12754254](https://doi.org/10.5281/zenodo.12754254).   
 
 
 ## Informationen zum Datensatz und Entstehungskontext 
@@ -32,7 +29,7 @@ Um den Trend der Anzahl von Hospitalisierungen und der 7-Tage-Hospitalisierungsi
 
 ### Administrative und organisatorische Angaben  
 
-Die zugrundeliegenden Hospitalisierungsdaten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance | ÖGD-Kontaktstelle](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) des RKI. Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [Fachgebiet 31 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG31/FG31_node.html). Die Berechnung der adjustierten Anzahl hospitalisierter Fälle und der adjustierten 7-Tage-Hospitalisierungsinzidenz erfolgt durch [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549), wissenschaftlicher Mitarbeiter des [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG34/FG34_node.html). Inhaltliche Fragen bezüglich der COVID-19-Hospitalisierungen in Deutschland können an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden.  
+Die zugrundeliegenden Hospitalisierungsdaten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance | ÖGD-Kontaktstelle](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) des RKI. Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [Fachgebiet IT 4 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG31/FG31_node.html). Die Berechnung der adjustierten Anzahl hospitalisierter Fälle und der adjustierten 7-Tage-Hospitalisierungsinzidenz erfolgt durch [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549), wissenschaftlicher Mitarbeiter des [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG34/FG34_node.html). Inhaltliche Fragen bezüglich der COVID-19-Hospitalisierungen in Deutschland können an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden.  
 Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:OpenData@rki.de)).  
 
 ### Erhebung und Aufbereitung der Daten  
