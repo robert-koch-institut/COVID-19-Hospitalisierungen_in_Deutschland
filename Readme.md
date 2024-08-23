@@ -19,7 +19,7 @@ Nordufer 20
   
 **Zitieren**   
 
-Robert Koch-Institut (**2024**): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.13358087](https://doi.org/10.5281/zenodo.13358087).   
+Robert Koch-Institut (**2024**): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.13363875](https://doi.org/10.5281/zenodo.13363875).   
 
 
 ## Informationen zum Datensatz und Entstehungskontext 
