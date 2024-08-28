@@ -1,0 +1,25 @@
+{
+  "name": "covid-19-hospitalisierungen_in_deutschland",
+  "title": "COVID-19-Hospitalisierungen_in_Deutschland",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "aktuell_deutschland_adjustierte-covid-19-hospitalisierungen",
+      "type": "table",
+      "path": "../../Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json"
+    },
+    {
+      "name": "aktuell_deutschland_covid-19-hospitalisierungen",
+      "type": "table",
+      "path": "../../Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json"
+    }
+  ]
+}
