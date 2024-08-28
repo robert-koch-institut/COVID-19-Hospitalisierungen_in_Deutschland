@@ -1,0 +1,34 @@
+{
+  "fields": [
+    {
+      "name": "Datum",
+      "type": "date",
+      "constraints": {}
+    },
+    {
+      "name": "Bundesland",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "Bundesland_Id",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "Altersgruppe",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "7T_Hospitalisierung_Faelle",
+      "type": "integer",
+      "constraints": {}
+    },
+    {
+      "name": "7T_Hospitalisierung_Inzidenz",
+      "type": "number",
+      "constraints": {}
+    }
+  ]
+}
