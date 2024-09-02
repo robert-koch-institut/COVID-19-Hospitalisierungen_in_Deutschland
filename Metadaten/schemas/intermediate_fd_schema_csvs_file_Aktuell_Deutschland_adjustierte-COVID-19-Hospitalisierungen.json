@@ -2,14 +2,11 @@
   "fields": [
     {
       "name": "Datum",
-      "type": "date",
-      "description": "Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz",
-      "format": "%Y-%m-%d"
+      "type": "date"
     },
     {
       "name": "Bundesland",
       "type": "string",
-      "description": "Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet",
       "constraints": {
         "enum": [
           "Baden-Württemberg",
@@ -34,34 +31,15 @@
     },
     {
       "name": "Bundesland_Id",
-      "type": "string",
-      "description": "Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet",
+      "type": "integer",
       "constraints": {
-        "enum": [
-          "01",
-          "02",
-          "03",
-          "04",
-          "05",
-          "06",
-          "07",
-          "08",
-          "09",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "00"
-        ]
+        "minimum": 0,
+        "maximum": 16
       }
     },
     {
       "name": "Altersgruppe",
       "type": "string",
-      "description": "Altersgruppe der  hospitalisierten COVID-19-Fälle",
       "constraints": {
         "enum": [
           "00+"
@@ -71,7 +49,6 @@
     {
       "name": "fixierte_7T_Hospitalisierung_Faelle",
       "type": "integer",
-      "description": "Tagesaktuell berichtete Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage",
       "constraints": {
         "minimum": 0
       }
@@ -79,7 +56,6 @@
     {
       "name": "aktualisierte_7T_Hospitalisierung_Faelle",
       "type": "integer",
-      "description": "Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage inklusive eingetroffener Nachmeldungen",
       "constraints": {
         "minimum": 0
       }
@@ -87,7 +63,6 @@
     {
       "name": "PS_adjustierte_7T_Hospitalisierung_Faelle",
       "type": "integer",
-      "description": "Punktschätzer der hospitalisierten COVID-19-Fälle der letzten 7 Tage",
       "missingValues": [
         "NA"
       ],
@@ -98,7 +73,6 @@
     {
       "name": "UG_PI_adjustierte_7T_Hospitalisierung_Faelle",
       "type": "integer",
-      "description": "Untere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage",
       "missingValues": [
         "NA"
       ],
@@ -109,7 +83,6 @@
     {
       "name": "OG_PI_adjustierte_7T_Hospitalisierung_Faelle",
       "type": "integer",
-      "description": "Obere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage",
       "missingValues": [
         "NA"
       ],
@@ -120,7 +93,6 @@
     {
       "name": "Bevoelkerung",
       "type": "integer",
-      "description": "Bevölkerungszahl für die Berechnung der adjustierten 7-Tage-Inzidenz",
       "constraints": {
         "minimum": 0
       }
@@ -128,7 +100,6 @@
     {
       "name": "fixierte_7T_Hospitalisierung_Inzidenz",
       "type": "number",
-      "description": "Tagesaktuell berichtete 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen",
       "constraints": {
         "minimum": 0
       }
@@ -136,7 +107,6 @@
     {
       "name": "aktualisierte_7T_Hospitalisierung_Inzidenz",
       "type": "number",
-      "description": "7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen unter Berücksichtigung eingetroffener Nachmeldungen",
       "constraints": {
         "minimum": 0
       }
@@ -144,7 +114,6 @@
     {
       "name": "PS_adjustierte_7T_Hospitalisierung_Inzidenz",
       "type": "number",
-      "description": "Punktschätzer der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle",
       "missingValues": [
         "NA"
       ],
@@ -155,7 +124,6 @@
     {
       "name": "UG_PI_adjustierte_7T_Hospitalisierung_Inzidenz",
       "type": "number",
-      "description": "Untere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle",
       "missingValues": [
         "NA"
       ],
@@ -166,7 +134,6 @@
     {
       "name": "OG_PI_adjustierte_7T_Hospitalisierung_Inzidenz",
       "type": "number",
-      "description": "Obere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle",
       "missingValues": [
         "NA"
       ],

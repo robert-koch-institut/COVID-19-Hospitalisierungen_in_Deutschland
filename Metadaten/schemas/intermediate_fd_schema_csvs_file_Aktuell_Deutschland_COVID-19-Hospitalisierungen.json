@@ -2,14 +2,11 @@
   "fields": [
     {
       "name": "Datum",
-      "type": "date",
-      "description": "Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz.",
-      "format": "%Y-%m-%d"
+      "type": "date"
     },
     {
       "name": "Bundesland",
       "type": "string",
-      "description": "Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet",
       "constraints": {
         "enum": [
           "Baden-Württemberg",
@@ -34,34 +31,15 @@
     },
     {
       "name": "Bundesland_Id",
-      "type": "string",
-      "description": "Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet",
+      "type": "integer",
       "constraints": {
-        "enum": [
-          "01",
-          "02",
-          "03",
-          "04",
-          "05",
-          "06",
-          "07",
-          "08",
-          "09",
-          "10",
-          "11",
-          "12",
-          "13",
-          "14",
-          "15",
-          "16",
-          "00"
-        ]
+        "minimum": 0,
+        "maximum": 16
       }
     },
     {
       "name": "Altersgruppe",
       "type": "string",
-      "description": "Altersgruppe der  hospitalisierten COVID-19-Fälle",
       "constraints": {
         "enum": [
           "00+",
@@ -77,7 +55,6 @@
     {
       "name": "7T_Hospitalisierung_Faelle",
       "type": "integer",
-      "description": "Summe der hospitalisierten COVID-19-Fälle mit Meldedatum innerhalb der letzten 7 Tage",
       "constraints": {
         "minimum": 0
       }
@@ -85,7 +62,6 @@
     {
       "name": "7T_Hospitalisierung_Inzidenz",
       "type": "number",
-      "description": "7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Bevölkerung",
       "constraints": {
         "minimum": 0
       }
