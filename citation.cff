@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+type: dataset
+title: COVID-19-Hospitalisierungen in Deutschland
+abstract: >-
+  Im Datensatz 'COVID-19-Hospitalisierungen' werden die aktuellen Zahlen der
+  nach den Vorgaben des Infektionsschutzgesetzes - IfSG - erfassten
+  hospitalisierten COVID-19-Fälle bereitgestellt.
+
+  Um den Trend der Anzahl von Hospitalisierungen und der
+  7-Tage-Hospitalisierungsinzidenz besser bewerten zu können, wird die
+  berichtete Hospitalisierungsinzidenz um eine Schätzung der zu erwartenden
+  Anzahl an verzögert berichteten Hospitalisierungen ergänzt. Neben den Daten
+  der gemeldeten COVID-19-Hospitalisierungen auf Bundes- und Länderebene wird
+  daher ein Nowcasting der Anzahl hospitalisierter Fälle und der
+  7-Tage-Hospitalisierungsinzidenz auf Bundesebene durchgeführt. Ziel ist die
+  Schätzung der Anzahl von hospitalisierten COVID-19-Fällen mit Meldedatum
+  innerhalb der sieben vorhergehenden Tage - inklusive der noch nicht an das RKI
+  berichteten Hospitalisierungen. Aufbauend auf dem Nowcasting wird eine
+  Schätzung der adjustierten 7-Tage-Hospitalisierungsinzidenz durchgeführt.
+date-released: '2024-10-21'
+keywords:
+  - Hospitalization
+  - Krankenhauseinweisung
+  - Vorhersage
+  - Forecasting
+  - COVID-19
+  - SARS-CoV-2
+  - Infektion
+  - Deutschland
+  - Infections
+  - Germany
+  - Open Data
+  - RKI
+  - Gesundheitsberichterstattung
+  - Epidemiologie
+  - Public health surveillance
+  - Epidemiology
+message: Cite me!
+url: >-
+  https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/
+license: CC-BY-4.0
+doi: 10.5281/zenodo.13959043
+version: '2024-10-21T07:15:14+02:00'
+authors:
+  - name: Robert Koch-Institut
