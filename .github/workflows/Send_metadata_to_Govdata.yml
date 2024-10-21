@@ -1,0 +1,17 @@
+name: Manually send metadata to GovData
+on:
+  workflow_dispatch:
+  
+permissions:
+  contents: write
+  
+jobs:
+  push_govdata:
+    name: Push ttl to GovData repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: run GovData Action
+        uses: robert-koch-institut/OpenData-Workflows/Send_metadata_to_Govdata@main
+        with:
+          govdata_github_token: ${{secrets.GOVDATA_TOKEN}}
+          destination_repo: robert-koch-institut/Metadaten_fuer_GovData
