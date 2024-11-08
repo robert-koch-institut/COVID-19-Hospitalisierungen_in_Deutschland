@@ -19,11 +19,10 @@ jobs:
       
       # Push to GovData Repositoy
       GOVDATA_ACTIVE: true
-      GOVDATA_DESTINATION_REPO: robert-koch-institut/OpenData-Workflows
+      GOVDATA_DESTINATION_REPO: robert-koch-institut/Metadaten_fuer_GovData
       
       # Push to NFDI4Health
       NFDI4HEALTH_ACTIVE: true
-      NFDI4HEALTH_BASE_BRANCH: main
       
       #Build Open Data Website
       WEBSITE_ACTIVE: true
