@@ -115,6 +115,12 @@ Ein Einträge nehmen eine eineindeutige Ausprägung hinsichtlich der Anzahl der 
 ### Variablenausprägungen
 Die Hospitalisierungsdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_COVID-19-Hospitalisierungen", "lang": "de"} -->
+
+Die Datei [Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json) hinterlegt:
+> [frictionless_data_schema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable                     | Typ     | Ausprägungen                                                                                    | Beschreibung                                                                                                                           |
 |:-----------------------------|:--------|:------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | Datum                        | date    | Format: `YYYY-MM-DD`                                                                            | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz.                                                                                    |
@@ -124,7 +130,10 @@ Die Hospitalisierungsdaten enthalten die in der folgenden Tabelle abgebildeten V
 | 7T_Hospitalisierung_Faelle   | integer | Werte: ≥0                                                                                       | Summe der hospitalisierten COVID-19-Fälle mit Meldedatum innerhalb der letzten 7 Tage                                                  |
 | 7T_Hospitalisierung_Inzidenz | number  | Werte: ≥0                                                                                       | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Bevölkerung                       |
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json`](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json).
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
 
 
 
@@ -157,6 +166,12 @@ Ein Einträge nehmen eine eineindeutige Ausprägungen an. Die adjustierte 7-Tage
 Die Hospitalisierungsdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
 
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen", "lang": "de"} -->
+
+Die Datei [Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json) hinterlegt:
+> [frictionless_data_schema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable                                           | Typ     | Ausprägungen                                                                                    | Beschreibung                                                                                                                                                             |
 |:---------------------------------------------------|:--------|:------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Datum                                              | date    | Format: `YYYY-MM-DD`                                                                            | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz                                                                                                                       |
@@ -175,7 +190,10 @@ Die Hospitalisierungsdaten enthalten die in der folgenden Tabelle abgebildeten V
 | UG_PI_adjustierte_7T_<br>Hospitalisierung_Inzidenz | number  | Werte: ≥0<br>Fehlende Werte: `NA`                                                               | Untere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                      |
 | OG_PI_adjustierte_7T_<br>Hospitalisierung_Inzidenz | number  | Werte: ≥0<br>Fehlende Werte: `NA`                                                               | Obere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                       |
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json`](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/frictionless_data_schema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json).
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
 
 
 #### Keine adjustierte Anzahl von Hospitalisierungen für den aktuellen und die zurückliegenden beiden Tage
