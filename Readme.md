@@ -69,7 +69,6 @@ Der Datensatz enthält epidemiologische Daten zur Anzahl und 7-Tage-Inzidenz der
 
 * Hospitalisierte COVID-19-Fälle auf Bundes- und Länderebene  
 * Berechnung der adjustierten COVID-19-Hospitalisierungen auf Bundesebene  
-* Archiv mit der Sammlung aller bisherigen Hospitalisierungsdaten  
 * Lizenz-Datei mit der Nutzungslizenz des Datensatzes in Deutsch und Englisch  
 * Datensatzdokumentation in deutscher Sprache  
 * Metadaten-Datei zum Import in Zenodo  
