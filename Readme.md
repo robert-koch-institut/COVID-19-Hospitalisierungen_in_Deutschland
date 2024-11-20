@@ -113,7 +113,6 @@ Die Hospitalisierungsdaten differenzieren verschiedenen Merkmale. Grundlegend na
 Ein Einträge nehmen eine eineindeutige Ausprägung hinsichtlich der Anzahl der Hospitalisierungen der letzten 7 Tage, einer Altersgruppe eines Bundeslands an. Die 7-Tage-Hospitalisierungsinzidenz berechnet sich aus der Anzahl der an das RKI übermittelten COVID-19-Fälle mit Meldedatum innerhalb der sieben vorgehenden Tage und der Bevölkerungszahl der entsprechenden Altersgruppe des Bundeslandes (bzw. des gesamten Bundesgebiets). Zur einheitlichen Darstellung wird die Inzidenz auf 100.000 Einwohner:innen normiert.  
 
 ### Variablenausprägungen
-Die Hospitalisierungsdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_COVID-19-Hospitalisierungen", "lang": "de"} -->
 
@@ -133,8 +132,6 @@ Die Datei [Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv](https://github.c
 <!-- DATA_SCHEMA_TABLE_END -->
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
-
-
 
 
 ## Adjustierte COVID-19-Hospitalisierungen auf Länderebene  
@@ -163,8 +160,6 @@ Die adjustierte Anzahl von COVID-19-Hospitalisierungen wird nach folgenden Merkm
 Ein Einträge nehmen eine eineindeutige Ausprägungen an. Die adjustierte 7-Tage-Hospitalisierungsinzidenz berechnet sich aus der adjustierten Anzahl der hospitalisierten COVID-19-Fälle der letzten sieben Tage (vorherig des Berichtsdatums) und der Bevölkerungszahl. Zur einheitlichen Darstellung wird die Inzidenz auf 100.000 Einwohner:innen normiert.
 
 ### Variablenausprägungen
-Die Hospitalisierungsdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
-
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen", "lang": "de"} -->
 
