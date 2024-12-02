@@ -19,7 +19,7 @@ Nordufer 20
   
 **Zitieren**   
 
-Robert Koch-Institut (**2024**): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.14010973](https://doi.org/10.5281/zenodo.14010973).   
+Robert Koch-Institut (**2024**): COVID-19-Hospitalisierungen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.14257830](https://doi.org/10.5281/zenodo.14257830).   
 
 
 ## Informationen zum Datensatz und Entstehungskontext 
@@ -69,7 +69,6 @@ Der Datensatz enthält epidemiologische Daten zur Anzahl und 7-Tage-Inzidenz der
 
 * Hospitalisierte COVID-19-Fälle auf Bundes- und Länderebene  
 * Berechnung der adjustierten COVID-19-Hospitalisierungen auf Bundesebene  
-* Archiv mit der Sammlung aller bisherigen Hospitalisierungsdaten  
 * Lizenz-Datei mit der Nutzungslizenz des Datensatzes in Deutsch und Englisch  
 * Datensatzdokumentation in deutscher Sprache  
 * Metadaten-Datei zum Import in Zenodo  

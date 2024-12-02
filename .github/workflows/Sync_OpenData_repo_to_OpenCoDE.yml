@@ -15,5 +15,4 @@ jobs:
           OPENCODE_TOKEN: ${{ secrets.OPENCODE_TOKEN }}
           GROUP_ID: 2781
           ACCESS_USER: RKIOpenData
-          # REPO_PATH: The repository name must not start or end with a special character and must not contain consecutive special characters
           ZENODOJSON_PATH: Metadaten/zenodo.json
