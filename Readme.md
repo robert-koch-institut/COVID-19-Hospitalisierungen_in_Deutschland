@@ -112,16 +112,25 @@ Die Hospitalisierungsdaten differenzieren verschiedenen Merkmale. Grundlegend na
 Ein Einträge nehmen eine eineindeutige Ausprägung hinsichtlich der Anzahl der Hospitalisierungen der letzten 7 Tage, einer Altersgruppe eines Bundeslands an. Die 7-Tage-Hospitalisierungsinzidenz berechnet sich aus der Anzahl der an das RKI übermittelten COVID-19-Fälle mit Meldedatum innerhalb der sieben vorgehenden Tage und der Bevölkerungszahl der entsprechenden Altersgruppe des Bundeslandes (bzw. des gesamten Bundesgebiets). Zur einheitlichen Darstellung wird die Inzidenz auf 100.000 Einwohner:innen normiert.  
 
 ### Variablenausprägungen
-Die Hospitalisierungsdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
 
-| Variable | Typ | Ausprägung | Beschreibung |
-| -------- | --- | ---------- | ------------ |
-| Datum |Datum |```JJJJ-MM-TT``` | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz. |
-| Bundesland | Text | ```Bundesgebiet``` <br/> ```Schleswig-Holstein``` <br/> ... <br/> ```Thüringen``` | Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet | 
-| Bundesland_Id| Text | ```00``` : Bundesgebiet <br/> ```01```&nbsp;bis&nbsp;```16```&nbsp;:&nbsp;Bundesland ID  | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet|
-|Altersgruppe | Text | ```00+```(alle Altersgruppen), ```00-04```, ```05-14```, ```15-34```, ```35-59```, ```60-79```, ```80+``` | Altersgruppe der  hospitalisierten COVID-19-Fälle | 
-|7T_Hospitalisierung_Faelle | Natürliche Zahl | ```≥0```| Summe der hospitalisierten COVID-19-Fälle mit Meldedatum innerhalb der letzten 7 Tage | 
-|7T_Hospitalisierung_Inzidenz| Rationale Zahl | ```≥0``` | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Bevölkerung |
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_COVID-19-Hospitalisierungen", "lang": "de"} -->
+
+Die Datei [Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json) hinterlegt:
+> [tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable                     | Typ     | Ausprägungen                                                                                    | Beschreibung                                                                                                                           |
+|:-----------------------------|:--------|:------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
+| Datum                        | date    | Format: `YYYY-MM-DD`                                                                            | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz.                                                                                    |
+| Bundesland                   | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet                                                                      |
+| Bundesland_Id                | string  | Werte: `01`, `02`, `03`, `04`, `05`, `06`, `07`, …                                              | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet |
+| Altersgruppe                 | string  | Werte: `00+`, `00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`                                | Altersgruppe der  hospitalisierten COVID-19-Fälle                                                                                      |
+| 7T_Hospitalisierung_Faelle   | integer | Werte: `≥0`                                                                                     | Summe der hospitalisierten COVID-19-Fälle mit Meldedatum innerhalb der letzten 7 Tage                                                  |
+| 7T_Hospitalisierung_Inzidenz | number  | Werte: `≥0`                                                                                     | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Bevölkerung                       |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 ## Adjustierte COVID-19-Hospitalisierungen auf Länderebene  
@@ -150,25 +159,36 @@ Die adjustierte Anzahl von COVID-19-Hospitalisierungen wird nach folgenden Merkm
 Ein Einträge nehmen eine eineindeutige Ausprägungen an. Die adjustierte 7-Tage-Hospitalisierungsinzidenz berechnet sich aus der adjustierten Anzahl der hospitalisierten COVID-19-Fälle der letzten sieben Tage (vorherig des Berichtsdatums) und der Bevölkerungszahl. Zur einheitlichen Darstellung wird die Inzidenz auf 100.000 Einwohner:innen normiert.
 
 ### Variablenausprägungen
-Die Hospitalisierungsdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:  
 
-| Variable | Typ | Ausprägung | Beschreibung |
-| -------- | --- | ---------- | ------------ |
-| Datum |Datum |```JJJJ-MM-TT``` | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz |
-| Bundesland | Text | ```Bundesgebiet``` <br/> ```Schleswig-Holstein``` <br/> ```[...]``` <br/> ```Thüringen``` | Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet | 
-| Bundesland_Id| Text | ```00``` : Bundesgebiet <br/> ```01```&nbsp;bis&nbsp;```16```:&nbsp;Bundesland&nbsp;ID  | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet|
-| Altersgruppe | Text | ```00+``` (alle Altersgruppen) | Altersgruppe der  hospitalisierten COVID-19-Fälle |
-| fixierte_7T _Hospitalisierung_Faelle| Natürliche Zahl | ```≥0```| Tagesaktuell berichtete Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage | 
-| aktualisierte_7T _Hospitalisierung_Faelle| Natürliche Zahl | ```≥0```| Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage inklusive eingetroffener Nachmeldungen| 
-| PS_adjustierte_7T _Hospitalisierung_Faelle| Natürliche Zahl | ```≥0``` | Punktschätzer der hospitalisierten COVID-19-Fälle der letzten 7 Tage|
-| UG_PI_adjustierte_ 7T_Hospitalisierung_Faelle | Natürliche Zahl|```≥0```  | Untere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage |
-| OG_PI_adjustierte_ 7T_Hospitalisierung_Faelle | Natürliche Zahl| ```≥0``` | Obere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage |
-| Bevoelkerung | Natürliche&nbsp;Zahl | ```≥0``` | Bevölkerungszahl für die Berechnung der adjustierten 7-Tage-Inzidenz |
-| fixierte_7T _Hospitalisierung_Inzidenz | Rationale Zahl | ```≥0``` | Tagesaktuell berichtete 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen |
-| aktualisierte_7T _Hospitalisierung_Inzidenz | Rationale Zahl | ```≥0``` | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen unter Berücksichtigung eingetroffener Nachmeldungen |
-| PS_adjustierte_ 7T_Hospitalisierung_Inzidenz | Rationale Zahl | ```≥0```|Punktschätzer der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle |
-| UG_PI_adjustierte_ 7T_Hospitalisierung_Inzidenz | Rationale Zahl | ```≥0``` | Untere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle |
-| OG_PI_adjustierte_ 7T_Hospitalisierung_Inzidenz | Rationale Zahl | ```≥0``` | Obere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle |
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen", "lang": "de"} -->
+
+Die Datei [Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json) hinterlegt:
+> [tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable                                           | Typ     | Ausprägungen                                                                                    | Beschreibung                                                                                                                                                             |
+|:---------------------------------------------------|:--------|:------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Datum                                              | date    | Format: `YYYY-MM-DD`                                                                            | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz                                                                                                                       |
+| Bundesland                                         | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet                                                                                                        |
+| Bundesland_Id                                      | string  | Werte: `01`, `02`, `03`, `04`, `05`, `06`, `07`, …                                              | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet                                   |
+| Altersgruppe                                       | string  | Werte: `00+`                                                                                    | Altersgruppe der  hospitalisierten COVID-19-Fälle                                                                                                                        |
+| fixierte_7T_Hospitalisierung_<br>Faelle            | integer | Werte: `≥0`                                                                                     | Tagesaktuell berichtete Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage                                           |
+| aktualisierte_7T_<br>Hospitalisierung_Faelle       | integer | Werte: `≥0`                                                                                     | Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage inklusive eingetroffener Nachmeldungen                            |
+| PS_adjustierte_7T_<br>Hospitalisierung_Faelle      | integer | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Punktschätzer der hospitalisierten COVID-19-Fälle der letzten 7 Tage                                                                                                     |
+| UG_PI_adjustierte_7T_<br>Hospitalisierung_Faelle   | integer | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Untere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage                                                                       |
+| OG_PI_adjustierte_7T_<br>Hospitalisierung_Faelle   | integer | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Obere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage                                                                        |
+| Bevoelkerung                                       | integer | Werte: `≥0`                                                                                     | Bevölkerungszahl für die Berechnung der adjustierten 7-Tage-Inzidenz                                                                                                     |
+| fixierte_7T_Hospitalisierung_<br>Inzidenz          | number  | Werte: `≥0`                                                                                     | Tagesaktuell berichtete 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen                             |
+| aktualisierte_7T_<br>Hospitalisierung_Inzidenz     | number  | Werte: `≥0`                                                                                     | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen unter Berücksichtigung eingetroffener Nachmeldungen |
+| PS_adjustierte_7T_<br>Hospitalisierung_Inzidenz    | number  | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Punktschätzer der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                                                    |
+| UG_PI_adjustierte_7T_<br>Hospitalisierung_Inzidenz | number  | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Untere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                      |
+| OG_PI_adjustierte_7T_<br>Hospitalisierung_Inzidenz | number  | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Obere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                       |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
+
 
 #### Keine adjustierte Anzahl von Hospitalisierungen für den aktuellen und die zurückliegenden beiden Tage
 
