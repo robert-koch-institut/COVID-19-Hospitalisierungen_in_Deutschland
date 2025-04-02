@@ -130,10 +130,7 @@ Zwischen dem Beginn des Krankenhausaufenthalts eines COVID-19-Falles und dem Zei
 
 Datengrundlage des Nowcastings sind die [Hospitalisierten COVID-19-Fälle nach Bundesland und Altersgruppe](#Hospitalisierte-COVID-19-Fälle-nach-Bundesland-und-Altersgruppe). Eine ausführliche Dokumentation über [Methoden, Instrumente und Verlauf der Datengenerierung](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung#methoden-instrumente-und-verlauf-der-datengenerierung) ist im Datensatz des [Nowcastings der Infektionszahlen](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung) zu finden. Um keine Verwirrung in Bezug auf das Nowcasting der Infektionszahlen zu erzeugen, wird in der Benennung der Daten auf den Begriff “Nowcasting” verzichtet und stattdessen von der adjustierten Anzahl von COVID-19-Hospitalisierungen gesprochen.
 
->[Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv)
->[JJJJ-MM-TT_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/tree/main/Archiv)
-
-Die adjustierten COVID-19-Hospitalisierungen auf Länderebene werden täglich bereitgestellt. Im Dateinamen repräsentiert die Sequenz “JJJJ-MM-TT” das Erstellungsdatum der Datei und gleichzeitig das Datum des enthaltenen Datenstands um 0:00 Uhr. “JJJJ” steht dabei für das Jahr, “MM” für den Monat und “TT” für den Tag der Erstellung bzw. des enthaltenen Datenstands.  
+>[Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv) 
 
 #### Variablen und Variablenausprägungen
 
