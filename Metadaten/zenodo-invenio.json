@@ -4,7 +4,7 @@
   "resource_type": {
     "id": "dataset"
   },
-  "publication_date": "2025-03-26",
+  "publication_date": "2025-04-15",
   "creators": [
     {
       "person_or_org": {
@@ -83,7 +83,7 @@
     {
       "person_or_org": {
         "type": "personal",
-        "family_name": "Wuensche",
+        "family_name": "Wünsche",
         "given_name": "Hannes",
         "identifiers": [
           {
@@ -104,10 +104,10 @@
     }
   ],
   "publisher": "Zenodo",
-  "version": "2025-03-26",
+  "version": "2025-04-15",
   "dates": [
     {
-      "date": "2025-03-26T07:15:14+01:00",
+      "date": "2025-04-15T07:15:13+02:00",
       "type": {
         "id": "created"
       },
