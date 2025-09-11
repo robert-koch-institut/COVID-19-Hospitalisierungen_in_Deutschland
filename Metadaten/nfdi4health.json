@@ -20,7 +20,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.17090136",
+        "identifier": "10.5281/zenodo.17096850",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -102,7 +102,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2025-09-10"
+      "version": "2025-09-11"
     },
     "webpage": "https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/",
     "contributors": [
