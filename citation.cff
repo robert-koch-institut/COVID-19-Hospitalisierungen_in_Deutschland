@@ -11,7 +11,7 @@ abstract: >-
   Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems
   durch COVID-19 besser abzubilden, insbesondere durch die Berechnung
   adjustierter 7-Tage-Hospitalisierungsinzidenzen.
-date-released: '2025-12-05'
+date-released: '2025-12-08'
 keywords:
   - Hospitalization
   - Krankenhauseinweisung
@@ -33,7 +33,7 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.17826727
-version: '2025-12-05T09:00:44+01:00'
+doi: 10.5281/zenodo.17853921
+version: '2025-12-08T10:30:14+01:00'
 authors:
   - name: Robert Koch-Institut
