@@ -2,6 +2,7 @@
 
 
 Dokumentation  
+
 # COVID-19-Hospitalisierungen in Deutschland
 
 <br> 
@@ -22,7 +23,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-Robert Koch-Institut. (2025). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18125662](https://doi.org/10.5281/zenodo.18125662)
+Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18125662](https://doi.org/10.5281/zenodo.18125662)
 
 <br>
 
@@ -32,11 +33,12 @@ Im Datensatz "COVID-19-Hospitalisierungen in Deutschland" des Robert Koch-Instit
 
 <br>
 
-**Inhaltsverzeichnis** 
+**Inhaltsverzeichnis**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
-  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)
-  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)  
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
 <!-- TOC_END -->
 
 <br>
@@ -124,14 +126,14 @@ Die Datei [Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv](https://github.c
 > [tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable                     | Typ     | Ausprägungen                                                                                    | Beschreibung                                                                                                                           |
-|:-----------------------------|:--------|:------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
-| Datum                        | date    | Format: `YYYY-MM-DD`                                                                            | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz.                                                                                    |
-| Bundesland                   | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet                                                                      |
-| Bundesland_Id                | string  | Werte: `01`, `02`, `03`, `04`, `05`, `06`, `07`, …                                              | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet |
-| Altersgruppe                 | string  | Werte: `00+`, `00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`                                | Altersgruppe der  hospitalisierten COVID-19-Fälle                                                                                      |
-| 7T_Hospitalisierung_Faelle   | integer | Werte: `≥0`                                                                                     | Summe der hospitalisierten COVID-19-Fälle mit Meldedatum innerhalb der letzten 7 Tage                                                  |
-| 7T_Hospitalisierung_Inzidenz | number  | Werte: `≥0`                                                                                     | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Bevölkerung                       |
+| Variable                         | Typ     | Ausprägungen                                                                                       | Beschreibung                                                                                                                           |
+|:---------------------------------|:--------|:---------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
+| Datum                            | date    | Format: `YYYY-MM-DD`                                                                               | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz.                                                                                    |
+| Bundesland                       | string  | Werte:<br>`Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet                                                                      |
+| Bundesland_Id                    | string  | Werte:<br>`01`, `02`, `03`, `04`, `05`, `06`, `07`, …                                              | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet |
+| Altersgruppe                     | string  | Werte:<br>`00+`, `00-04`, `05-14`, `15-34`, `35-59`, `60-79`, `80+`                                | Altersgruppe der  hospitalisierten COVID-19-Fälle                                                                                      |
+| 7T_Hospitalisierung_<br>Faelle   | integer | Werte: `≥0`                                                                                        | Summe der hospitalisierten COVID-19-Fälle mit Meldedatum innerhalb der letzten 7 Tage                                                  |
+| 7T_Hospitalisierung_<br>Inzidenz | number  | Werte: `≥0`                                                                                        | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Bevölkerung                       |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -174,23 +176,23 @@ Die Datei [Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv](http
 > [tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable                                           | Typ     | Ausprägungen                                                                                    | Beschreibung                                                                                                                                                             |
-|:---------------------------------------------------|:--------|:------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Datum                                              | date    | Format: `YYYY-MM-DD`                                                                            | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz                                                                                                                       |
-| Bundesland                                         | string  | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet                                                                                                        |
-| Bundesland_Id                                      | string  | Werte: `01`, `02`, `03`, `04`, `05`, `06`, `07`, …                                              | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet                                   |
-| Altersgruppe                                       | string  | Werte: `00+`                                                                                    | Altersgruppe der  hospitalisierten COVID-19-Fälle                                                                                                                        |
-| fixierte_7T_Hospitalisierung_<br>Faelle            | integer | Werte: `≥0`                                                                                     | Tagesaktuell berichtete Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage                                           |
-| aktualisierte_7T_<br>Hospitalisierung_Faelle       | integer | Werte: `≥0`                                                                                     | Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage inklusive eingetroffener Nachmeldungen                            |
-| PS_adjustierte_7T_<br>Hospitalisierung_Faelle      | integer | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Punktschätzer der hospitalisierten COVID-19-Fälle der letzten 7 Tage                                                                                                     |
-| UG_PI_adjustierte_7T_<br>Hospitalisierung_Faelle   | integer | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Untere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage                                                                       |
-| OG_PI_adjustierte_7T_<br>Hospitalisierung_Faelle   | integer | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Obere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage                                                                        |
-| Bevoelkerung                                       | integer | Werte: `≥0`                                                                                     | Bevölkerungszahl für die Berechnung der adjustierten 7-Tage-Inzidenz                                                                                                     |
-| fixierte_7T_Hospitalisierung_<br>Inzidenz          | number  | Werte: `≥0`                                                                                     | Tagesaktuell berichtete 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen                             |
-| aktualisierte_7T_<br>Hospitalisierung_Inzidenz     | number  | Werte: `≥0`                                                                                     | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen unter Berücksichtigung eingetroffener Nachmeldungen |
-| PS_adjustierte_7T_<br>Hospitalisierung_Inzidenz    | number  | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Punktschätzer der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                                                    |
-| UG_PI_adjustierte_7T_<br>Hospitalisierung_Inzidenz | number  | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Untere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                      |
-| OG_PI_adjustierte_7T_<br>Hospitalisierung_Inzidenz | number  | Werte: `≥0`<br>Fehlende Werte: `NA`                                                             | Obere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                       |
+| Variable                                           | Typ     | Ausprägungen                                                                                       | Beschreibung                                                                                                                                                             |
+|:---------------------------------------------------|:--------|:---------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Datum                                              | date    | Format: `YYYY-MM-DD`                                                                               | Berichtsdatum der 7-Tage-Hospitalisierungsinzidenz                                                                                                                       |
+| Bundesland                                         | string  | Werte:<br>`Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Name des Bundeslandes sowie ein Wert für das gesamte Bundesgebiet                                                                                                        |
+| Bundesland_Id                                      | string  | Werte:<br>`01`, `02`, `03`, `04`, `05`, `06`, `07`, …                                              | Identifikationsnummer des Bundeslandes basierend auf dem Amtlichen Gemeindeschlüssel (AGS) sowie ein Wert für das gesamte Bundesgebiet                                   |
+| Altersgruppe                                       | string  | Werte:<br>`00+`                                                                                    | Altersgruppe der  hospitalisierten COVID-19-Fälle                                                                                                                        |
+| fixierte_7T_<br>Hospitalisierung_Faelle            | integer | Werte: `≥0`                                                                                        | Tagesaktuell berichtete Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage                                           |
+| aktualisierte_7T_<br>Hospitalisierung_Faelle       | integer | Werte: `≥0`                                                                                        | Summe der hospitalisierten COVID-19-Fälle mit Altersangabe und Meldedatum innerhalb der letzten 7 Tage inklusive eingetroffener Nachmeldungen                            |
+| PS_adjustierte_7T_<br>Hospitalisierung_Faelle      | integer | Werte: `≥0`<br>Fehlende Werte:<br>`NA`                                                             | Punktschätzer der hospitalisierten COVID-19-Fälle der letzten 7 Tage                                                                                                     |
+| UG_PI_adjustierte_7T_<br>Hospitalisierung_Faelle   | integer | Werte: `≥0`<br>Fehlende Werte:<br>`NA`                                                             | Untere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage                                                                       |
+| OG_PI_adjustierte_7T_<br>Hospitalisierung_Faelle   | integer | Werte: `≥0`<br>Fehlende Werte:<br>`NA`                                                             | Obere Grenze des 95%-Prädiktionsintervalls der hospitalisierten COVID-19-Fälle der letzten 7 Tage                                                                        |
+| Bevoelkerung                                       | integer | Werte: `≥0`                                                                                        | Bevölkerungszahl für die Berechnung der adjustierten 7-Tage-Inzidenz                                                                                                     |
+| fixierte_7T_<br>Hospitalisierung_Inzidenz          | number  | Werte: `≥0`                                                                                        | Tagesaktuell berichtete 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen                             |
+| aktualisierte_7T_<br>Hospitalisierung_Inzidenz     | number  | Werte: `≥0`                                                                                        | 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle (nach Meldedatum des Falles) bezogen auf 100.000 Einwohner:innen unter Berücksichtigung eingetroffener Nachmeldungen |
+| PS_adjustierte_7T_<br>Hospitalisierung_Inzidenz    | number  | Werte: `≥0`<br>Fehlende Werte:<br>`NA`                                                             | Punktschätzer der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                                                    |
+| UG_PI_adjustierte_7T_<br>Hospitalisierung_Inzidenz | number  | Werte: `≥0`<br>Fehlende Werte:<br>`NA`                                                             | Untere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                      |
+| OG_PI_adjustierte_7T_<br>Hospitalisierung_Inzidenz | number  | Werte: `≥0`<br>Fehlende Werte:<br>`NA`                                                             | Obere Grenze des 95%-Prädiktionsintervalls der 7-Tage-Inzidenz der hospitalisierten COVID-19-Fälle                                                                       |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -218,7 +220,7 @@ Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten b
 
 > [Metadaten/](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/zenodo.json)  
 
@@ -229,8 +231,8 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```    
@@ -259,6 +261,8 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 - https://github.com/robert-koch-institut  
 - https://gitlab.opencode.de/robert-koch-institut  
 - https://edoc.rki.de/  
+
+
  
 ### Lizenz  
 
