@@ -23,7 +23,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18194377](https://doi.org/10.5281/zenodo.18194377)
+Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18204670](https://doi.org/10.5281/zenodo.18204670)
 
 <br>
 
