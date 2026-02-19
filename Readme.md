@@ -23,10 +23,12 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->  
 Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18490900](https://doi.org/10.5281/zenodo.18490900)
+<!-- CITATION_END -->
+
 
 <br>
-
 
 **Zusammenfassung**    
 Im Datensatz "COVID-19-Hospitalisierungen in Deutschland" des Robert Koch-Institutswerden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen.
@@ -87,7 +89,7 @@ Die Daten werden in der Regel von dem Gesundheitsamt an das RKI übermittelt, da
 
 #### Bevölkerungsdaten  
 
-Die für die Berechnung der Inzidenzen bezieht das RKI Bevölkerungsdaten durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken. Detaillierte Informationen und Ergebnisse des Statistischen Bundesamtes bietet der Themenbereiche „[Bevölkerungstand](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html)“ und die Datenbank [GENESIS-Online](https://www-genesis.destatis.de/genesis/online?sequenz=tabellen&selectionname=12411*#abreadcrumb), sowie die [Regionaldatenbank Deutschland](https://www.regionalstatistik.de/genesis/online?operation=statistic&levelindex=0&levelid=1664438374999&code=12411#abreadcrumb) des Bundes und der Länder. Die Daten zur Bevölkerung lassen sich in sich durch den Filtercode "12411" aufrufen.   
+Die für die Berechnung der Inzidenzen bezieht das RKI Bevölkerungsdaten durch das Statistisches Bundesamt (Destatis), Referat F24 | Bevölkerungsfortschreibung, Ausländer- und Integrationsstatistiken. Detaillierte Informationen und Ergebnisse des Statistischen Bundesamtes bietet der Themenbereiche "[Bevölkerungstand](https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/_inhalt.html)" und die Datenbank [GENESIS-Online](https://www-genesis.destatis.de/genesis/online?sequenz=tabellen&selectionname=12411*#abreadcrumb), sowie die [Regionaldatenbank Deutschland](https://www.regionalstatistik.de/genesis/online?operation=statistic&levelindex=0&levelid=1664438374999&code=12411#abreadcrumb) des Bundes und der Länder. Die Daten zur Bevölkerung lassen sich in sich durch den Filtercode "12411" aufrufen.   
 
 Für die Berechnung der Inzidenzen werden jeweils die Bevölkerungszahlen des entsprechenden Jahres verwendet (z. B. für das Jahr 2020 die Bevölkerungsdaten von 2020). Da aktuelle Bevölkerungsstatistiken zeitverzögert veröffentlicht werden, werden für jüngere Zeiträume, für die noch keine Daten vorliegen, die zuletzt verfügbaren Bevölkerungszahlen herangezogen. Aktuell (Datenstand: 2025-01-08) werden daher für die Jahre 2023, 2024 und 2025 die Bevölkerungszahlen des Jahres 2022 verwendet. Eine Umstellung auf die jeweils neuesten Zahlen ist stets angestrebt. Dabei kann es jedoch zu sprunghaften Änderungen der Inzidenzen kommen.
 
@@ -123,6 +125,7 @@ Ein Einträge nehmen eine eineindeutige Ausprägung hinsichtlich der Anzahl der 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_COVID-19-Hospitalisierungen", "lang": "de"} -->
 
 Die Datei [Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json) hinterlegt:
+
 > [tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_COVID-19-Hospitalisierungen.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -142,17 +145,17 @@ Die Datei [Aktuell_Deutschland_COVID-19-Hospitalisierungen.csv](https://github.c
 
 #### Formatierung
 
-Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",".
+Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma `,`.
 
 - Zeichensatz: UTF-8
-- .csv Trennzeichen: Komma ","
+- .csv Trennzeichen: Komma `,`
 
 
 ### Adjustierte COVID-19-Hospitalisierungen auf Länderebene  
 
 Zwischen dem Beginn des Krankenhausaufenthalts eines COVID-19-Falles und dem Zeitpunkt, an dem diese Information am RKI eingeht, entsteht ein zeitlicher Verzug. Um den Trend der Anzahl von Hospitalisierungen und der 7-Tage-Hospitalisierungsinzidenz besser bewerten zu können, ergänzen wir die berichtete Hospitalisierungsinzidenz um eine Schätzung der zu erwartenden Anzahl an verzögert berichteten Hospitalisierungen. Neben den Daten der gemeldeten COVID-19-Hospitalisierungen auf Bundes- und Länderebene wird daher ein Nowcasting der Anzahl hospitalisierter Fälle und der 7-Tage-Hospitalisierungsinzidenz auf Bundes- und Länderebene durchgeführt. Ziel ist die Schätzung der Anzahl von hospitalisierten COVID-19-Fällen mit Meldedatum innerhalb der sieben vorhergehenden Tage - inklusive der noch nicht an das RKI berichteten Hospitalisierungen.  
 
-Datengrundlage des Nowcastings sind die [Hospitalisierten COVID-19-Fälle nach Bundesland und Altersgruppe](#Hospitalisierte-COVID-19-Fälle-nach-Bundesland-und-Altersgruppe). Eine ausführliche Dokumentation über [Methoden, Instrumente und Verlauf der Datengenerierung](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung#methoden-instrumente-und-verlauf-der-datengenerierung) ist im Datensatz des [Nowcastings der Infektionszahlen](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung) zu finden. Um keine Verwirrung in Bezug auf das Nowcasting der Infektionszahlen zu erzeugen, wird in der Benennung der Daten auf den Begriff “Nowcasting” verzichtet und stattdessen von der adjustierten Anzahl von COVID-19-Hospitalisierungen gesprochen.
+Datengrundlage des Nowcastings sind die [Hospitalisierten COVID-19-Fälle nach Bundesland und Altersgruppe](#hospitalisierte-covid-19-fälle-nach-bundesland-und-altersgruppe). Eine ausführliche Dokumentation über [Methoden, Instrumente und Verlauf der Datengenerierung](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung#methoden-instrumente-und-verlauf-der-datengenerierung) ist im Datensatz des [Nowcastings der Infektionszahlen](https://github.com/robert-koch-institut/SARS-CoV-2-Nowcasting_und_-R-Schaetzung) zu finden. Um keine Verwirrung in Bezug auf das Nowcasting der Infektionszahlen zu erzeugen, wird in der Benennung der Daten auf den Begriff "Nowcasting" verzichtet und stattdessen von der adjustierten Anzahl von COVID-19-Hospitalisierungen gesprochen.
 
 >[Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv) 
 
@@ -173,6 +176,7 @@ Ein Einträge nehmen eine eineindeutige Ausprägungen an. Die adjustierte 7-Tage
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen", "lang": "de"} -->
 
 Die Datei [Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.csv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json) hinterlegt:
+
 > [tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json](https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland/blob/main/Metadaten/schemas/tableschema_Aktuell_Deutschland_adjustierte-COVID-19-Hospitalisierungen.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -204,15 +208,13 @@ Die Schätzung der adjustierten Anzahl von COVID-19-Hospitalisierungen ist für 
 
 #### Formatierung
 
-Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",".
+Die Daten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma `,`.
 
 - Zeichensatz: UTF-8
-- .csv Trennzeichen: Komma ","
+- .csv Trennzeichen: Komma `,`
 
 
 <!-- FOOTER_START: {"lang": "de"} -->
-
-
 
 ### Metadaten  
 
@@ -257,13 +259,13 @@ Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
 
 
- 
+
 ### Lizenz  
 
 Der Datensatz "COVID-19-Hospitalisierungen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
