@@ -9,7 +9,7 @@
     "descriptions": [
       {
         "language": "DE (German)",
-        "text": "Im Datensatz \"COVID-19-Hospitalisierungen in Deutschland\" des Robert Koch-Institutswerden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen."
+        "text": "Im Datensatz \"COVID-19-Hospitalisierungen in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen."
       }
     ],
     "titles": [
@@ -20,15 +20,15 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.18950984",
+        "identifier": "10.5281/zenodo.18977325",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
       },
       {
         "identifier": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland",
-        "relationType": "A references B",
         "typeGeneral": "Dataset",
+        "relationType": "A references B",
         "scheme": "URL"
       }
     ],
@@ -102,11 +102,12 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-03-11"
+      "version": "2026-03-12"
     },
-    "webpage": "https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/",
+    "webpage": "https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland",
     "contributors": [
       {
+        "nameType": "Organisational",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -118,13 +119,13 @@
             ]
           }
         ],
-        "nameType": "Organisational",
         "organisational": {
           "name": "Robert Koch-Institut",
           "type": "Creator/Author"
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -136,7 +137,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Data manager",
           "givenName": "Alexander",
@@ -150,6 +150,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -161,7 +162,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Researcher",
           "givenName": "Matthias",
@@ -175,6 +175,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -186,7 +187,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Project manager",
           "givenName": "Michaela",
@@ -200,6 +200,7 @@
         }
       },
       {
+        "nameType": "Personal",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -211,7 +212,6 @@
             ]
           }
         ],
-        "nameType": "Personal",
         "personal": {
           "type": "Data curator",
           "givenName": "Hannes",
