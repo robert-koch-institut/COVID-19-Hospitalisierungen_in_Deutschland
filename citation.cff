@@ -1,15 +1,17 @@
 cff-version: 1.2.0
 type: dataset
 title: COVID-19-Hospitalisierungen in Deutschland
-abstract: Im Datensatz "COVID-19-Hospitalisierungen in Deutschland" des Robert Koch-Instituts
-  werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang
-  mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG)
-  bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene
-  enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen
-  mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems
-  durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter
-  7-Tage-Hospitalisierungsinzidenzen.
-date-released: '2026-03-12'
+abstract: >-
+  Im Datensatz &quot;COVID-19-Hospitalisierungen in Deutschland&quot; des Robert
+  Koch-Institutswerden täglich aktualisierte Informationen zu Hospitalisierungen
+  im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem
+  Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen
+  und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch
+  modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels
+  Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems
+  durch COVID-19 besser abzubilden, insbesondere durch die Berechnung
+  adjustierter 7-Tage-Hospitalisierungsinzidenzen.
+date-released: '2026-03-13'
 keywords:
   - Hospitalization
   - Krankenhauseinweisung
@@ -28,10 +30,10 @@ keywords:
   - Public health surveillance
   - Epidemiology
 message: Cite me!
-url: https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland
+url: >-
+  https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.18977325
-version: '2026-03-12T09:30:20+01:00'
+doi: 10.5281/zenodo.18997464
+version: '2026-03-13T08:49:58+01:00'
 authors:
   - name: Robert Koch-Institut
-    website: http://www.rki.de/

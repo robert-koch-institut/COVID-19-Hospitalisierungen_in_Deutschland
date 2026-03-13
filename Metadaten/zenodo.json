@@ -1,15 +1,6 @@
 {
   "title": "COVID-19-Hospitalisierungen in Deutschland",
-  "description": "<p>Im Datensatz \"COVID-19-Hospitalisierungen in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen.</p>",
-  "upload_type": "dataset",
-  "access_right": "open",
-  "license": "CC-BY-4.0",
-  "language": "deu",
-  "communities": [
-    {
-      "identifier": "robertkochinstitut"
-    }
-  ],
+  "description": "<p>Im Datensatz &quot;COVID-19-Hospitalisierungen in Deutschland&quot; des Robert Koch-Institutswerden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen.</p>\n",
   "creators": [
     {
       "name": "Robert Koch-Institut",
@@ -56,6 +47,17 @@
     "Open Data",
     "RKI"
   ],
+  "publication_date": "2026-03-13",
+  "version": "2026-03-13",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
   "subjects": [
     {
       "term": "Gesundheitsberichterstattung",
@@ -74,26 +76,24 @@
       "identifier": "info:ddc/22/eng//614.4"
     }
   ],
-  "publication_date": "2026-03-12",
-  "version": "2026-03-12",
+  "dates": [
+    {
+      "start": "2026-03-13T08:49:58+01:00",
+      "end": "2026-03-13T08:49:58+01:00",
+      "type": "Created",
+      "description": "Date when the published data was created"
+    }
+  ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland",
       "relation": "isSupplementTo",
+      "identifier": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland",
       "resource_type": "dataset"
     },
     {
-      "identifier": "https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland",
       "relation": "isDescribedBy",
+      "identifier": "https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/",
       "resource_type": "other"
-    }
-  ],
-  "dates": [
-    {
-      "start": "2026-03-12T09:30:20+01:00",
-      "end": "2026-03-12T09:30:20+01:00",
-      "type": "Created",
-      "description": "Date when the published data was created"
     }
   ]
 }
