@@ -33,7 +33,7 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.19253047
-version: '2026-03-27T12:10:58+01:00'
+doi: 10.5281/zenodo.19253219
+version: '2026-03-27T12:14:46+01:00'
 authors:
   - name: Robert Koch-Institut
