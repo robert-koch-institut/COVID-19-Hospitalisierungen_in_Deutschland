@@ -1,17 +1,15 @@
 cff-version: 1.2.0
 type: dataset
 title: COVID-19-Hospitalisierungen in Deutschland
-abstract: >-
-  Im Datensatz &quot;COVID-19-Hospitalisierungen in Deutschland&quot; des Robert
-  Koch-Institutswerden täglich aktualisierte Informationen zu Hospitalisierungen
-  im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem
-  Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen
-  und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch
-  modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels
-  Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems
-  durch COVID-19 besser abzubilden, insbesondere durch die Berechnung
-  adjustierter 7-Tage-Hospitalisierungsinzidenzen.
-date-released: '2026-04-01'
+abstract: Im Datensatz "COVID-19-Hospitalisierungen in Deutschland" des Robert Koch-Instituts
+  werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang
+  mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG)
+  bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene
+  enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen
+  mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems
+  durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter
+  7-Tage-Hospitalisierungsinzidenzen.
+date-released: '2026-04-02'
 keywords:
   - Hospitalization
   - Krankenhauseinweisung
@@ -19,7 +17,7 @@ keywords:
   - Forecasting
   - COVID-19
   - SARS-CoV-2
-  - Infektion
+  - Infektionen
   - Deutschland
   - Infections
   - Germany
@@ -30,10 +28,10 @@ keywords:
   - Public health surveillance
   - Epidemiology
 message: Cite me!
-url: >-
-  https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland/
+url: https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland
 license: CC-BY-4.0
-doi: 10.5281/zenodo.19364006
-version: '2026-04-01T07:15:14+02:00'
+doi: 10.5281/zenodo.19381815
+version: '2026-04-02T07:15:23+02:00'
 authors:
   - name: Robert Koch-Institut
+    website: http://www.rki.de/
