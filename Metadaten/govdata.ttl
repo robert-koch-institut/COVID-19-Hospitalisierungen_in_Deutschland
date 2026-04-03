@@ -5,9 +5,9 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://zenodo.org/record/19381815>
+<https://zenodo.org/record/19395001>
     a dcat:Dataset ;
-    dcatde:contributor <https://zenodo.org/record/19381815#author-1> ;
+    dcatde:contributor <https://zenodo.org/record/19395001#author-1> ;
     dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
     dcatde:maintainer
         [
@@ -16,9 +16,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             foaf:name "Robert Koch-Institut | Open Data Team" ;
         ] ;
     dct:description "<p>Im Datensatz \"COVID-19-Hospitalisierungen in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen.</p>" ;
-    dct:issued "2026-04-02T07:15:23+02:00"^^xsd:dateTime ;
+    dct:issued "2026-04-03T07:15:19+02:00"^^xsd:dateTime ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-02T07:15:23+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-03T07:15:19+02:00"^^xsd:dateTime ;
     dct:publisher
         [
             a foaf:Organization ;
@@ -37,9 +37,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             vcard:hasStreetAddress "Nordufer 20" ;
         ] ;
     dcat:distribution
-        <https://zenodo.org/record/19381815#dist-01-github> ,
-        <https://zenodo.org/record/19381815#dist-02-zenodo> ,
-        <https://zenodo.org/record/19381815#dist-03-zenodo-documentation> ;
+        <https://zenodo.org/record/19395001#dist-01-github> ,
+        <https://zenodo.org/record/19395001#dist-02-zenodo> ,
+        <https://zenodo.org/record/19395001#dist-03-zenodo-documentation> ;
     dcat:keyword
         "COVID-19" ,
         "Deutschland" ,
@@ -64,44 +64,44 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 .
 
-<https://zenodo.org/record/19381815#author-1>
+<https://zenodo.org/record/19395001#author-1>
     a foaf:Organization ;
     foaf:name "Robert Koch-Institut" ;
 .
 
-<https://zenodo.org/record/19381815#dist-01-github>
+<https://zenodo.org/record/19395001#dist-01-github>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19381815" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19395001" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-02T07:15:23+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-03T07:15:19+02:00"^^xsd:dateTime ;
     dct:title "Github - COVID-19-Hospitalisierungen in Deutschland" ;
     dcat:accessURL <https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland> ;
 .
 
-<https://zenodo.org/record/19381815#dist-02-zenodo>
+<https://zenodo.org/record/19395001#dist-02-zenodo>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19381815" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19395001" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern." ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-02T07:15:23+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-03T07:15:19+02:00"^^xsd:dateTime ;
     dct:title "Zenodo - COVID-19-Hospitalisierungen in Deutschland" ;
-    dcat:accessURL <https://zenodo.org/record/19381815> ;
+    dcat:accessURL <https://zenodo.org/record/19395001> ;
 .
 
-<https://zenodo.org/record/19381815#dist-03-zenodo-documentation>
+<https://zenodo.org/record/19395001#dist-03-zenodo-documentation>
     a dcat:Distribution ;
-    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19381815" ;
+    dcatde:licenseAttributionByText "Robert Koch-Institut. (2026). COVID-19-Hospitalisierungen in Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.19395001" ;
     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'COVID-19-Hospitalisierungen in Deutschland' bereitgestellten Daten" ;
     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
     dct:license <https://dcat-ap.de/def/licenses/cc-by/4.0> ;
-    dct:modified "2026-04-02T07:15:23+02:00"^^xsd:dateTime ;
+    dct:modified "2026-04-03T07:15:19+02:00"^^xsd:dateTime ;
     dct:title "[Dokumentation]_COVID-19-Hospitalisierungen_in_Deutschland.pdf" ;
-    dcat:accessURL <https://zenodo.org/record/19381815/files/[Dokumentation]_COVID-19-Hospitalisierungen_in_Deutschland.pdf> ;
+    dcat:accessURL <https://zenodo.org/record/19395001/files/[Dokumentation]_COVID-19-Hospitalisierungen_in_Deutschland.pdf> ;
 .
