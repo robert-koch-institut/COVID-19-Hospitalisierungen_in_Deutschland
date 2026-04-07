@@ -61,8 +61,8 @@
     "Epidemiology"
   ],
   "subjects": [],
-  "publication_date": "2026-04-06",
-  "version": "2026-04-06",
+  "publication_date": "2026-04-07",
+  "version": "2026-04-07",
   "related_identifiers": [
     {
       "identifier": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland",
@@ -77,8 +77,8 @@
   ],
   "dates": [
     {
-      "start": "2026-04-06T07:15:20+02:00",
-      "end": "2026-04-06T07:15:20+02:00",
+      "start": "2026-04-07T07:15:25+02:00",
+      "end": "2026-04-07T07:15:25+02:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
