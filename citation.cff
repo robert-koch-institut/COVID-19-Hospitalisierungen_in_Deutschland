@@ -9,7 +9,7 @@ abstract: Im Datensatz "COVID-19-Hospitalisierungen in Deutschland" des Robert K
   mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems
   durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter
   7-Tage-Hospitalisierungsinzidenzen.
-date-released: '2026-04-16'
+date-released: '2026-04-17'
 keywords:
   - Hospitalization
   - Krankenhauseinweisung
@@ -30,8 +30,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland
 license: CC-BY-4.0
-doi: 10.5281/zenodo.19602416
-version: '2026-04-16T07:15:13+02:00'
+doi: 10.5281/zenodo.19625125
+version: '2026-04-17T07:15:14+02:00'
 authors:
   - name: Robert Koch-Institut
     website: http://www.rki.de/
