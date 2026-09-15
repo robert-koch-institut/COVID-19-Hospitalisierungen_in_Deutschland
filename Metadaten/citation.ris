@@ -1,0 +1,27 @@
+TY  - DATA
+AB  - Im Datensatz "COVID-19-Hospitalisierungen in Deutschland" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen.
+AU  - Robert Koch-Institut
+DA  - 2026-09-15
+DO  - 10.5281/zenodo.22762176
+KW  - Hospitalization
+KW  - Krankenhauseinweisung
+KW  - Vorhersage
+KW  - Forecasting
+KW  - COVID-19
+KW  - SARS-CoV-2
+KW  - Infektionen
+KW  - Deutschland
+KW  - Infections
+KW  - Germany
+KW  - Open Data
+KW  - RKI
+KW  - Gesundheitsberichterstattung
+KW  - Epidemiologie
+KW  - Public health surveillance
+KW  - Epidemiology
+PY  - 2026
+TI  - COVID-19-Hospitalisierungen in Deutschland
+UR  - https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland
+ET  - 2026-09-15
+N1  - License: CC-BY-4.0
+ER  -
