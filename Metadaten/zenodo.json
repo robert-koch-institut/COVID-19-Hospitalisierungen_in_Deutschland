@@ -1,7 +1,7 @@
 {
   "title": "COVID-19-Hospitalisierungen in Deutschland",
   "description": "<p>Im Datensatz \"COVID-19-Hospitalisierungen in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen.</p>",
-  "upload_type": "dataset",
+  "upload_type": "other",
   "access_right": "open",
   "license": "CC-BY-4.0",
   "language": "deu",
@@ -61,13 +61,13 @@
     "Epidemiology"
   ],
   "subjects": [],
-  "publication_date": "2026-10-30",
-  "version": "2026-10-30",
+  "publication_date": "2026-10-31",
+  "version": "2026-10-31",
   "related_identifiers": [
     {
       "identifier": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland",
       "relation": "isSupplementTo",
-      "resource_type": "dataset"
+      "resource_type": "other"
     },
     {
       "identifier": "https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland",
@@ -77,8 +77,8 @@
   ],
   "dates": [
     {
-      "start": "2026-10-30T07:15:13+01:00",
-      "end": "2026-10-30T07:15:13+01:00",
+      "start": "2026-10-31T07:15:15+01:00",
+      "end": "2026-10-31T07:15:15+01:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
